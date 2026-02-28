@@ -14,18 +14,18 @@ class Gestao
         int n = 0;
         
         // Lógica de repetição
-        while(n < 20)
+        while(n < 5)
         {
             Console.WriteLine("---------------Gestão de Recursos-----------------");
             Console.WriteLine("Digite (l) ou (L) para produtos de ramo da limpeza\n");
             Console.WriteLine("Digite (a) ou (A) para produtos de ramo da alimetação\n");
             Console.WriteLine("Digite (h) ou (H) para produtos de ramo da higiene\n");
-            Console.WriteLine("Digite a letra do ramo produto: \n");
+            Console.WriteLine("Digite a letra do ramo do produto: ");
             mer = Console.ReadLine();
 
             if(mer == "l" || mer == "L" || mer == "a" || mer == "A" || mer == "h" || mer == "H")
             {
-                Console.WriteLine("Digite o valor da mercadoria: \n");
+                Console.WriteLine("Digite o valor da mercadoria: ");
                 preco = double.Parse(Console.ReadLine());
                 if(preco > 0)
                 {
