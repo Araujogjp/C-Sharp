@@ -47,6 +47,7 @@ class Program
 {
     static void Main()
     {
+        \\ Instanciando
         Funcionario func = new Funcionario(2026, "JP", "Programador", 1000);
 
         func.cadastar();
